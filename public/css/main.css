@@ -2,21 +2,16 @@
 @import url(cards.css);
 
 body {
-    color: var(--text-color);
-    body {
-  background: linear-gradient(135deg, #6A0DAD, #9932CC, #FF00FF);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #2e003e, #4b006e, #6a0dad);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
-    background-image: var(--background);
-    position: relative;
-    height: 100vh;
-    text-align: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-}
+
 
 /* width */
 ::-webkit-scrollbar {
